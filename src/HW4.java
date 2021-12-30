@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 
-public class HW2 {
+public class HW4 {
 
 	public static void main (String[]args) {
 //Eðer girilen tutar 0 ve 1000 TL arasýnda ise KDV oraný %18 , 
@@ -12,11 +12,11 @@ public class HW2 {
 		System.out.println("Lütfen Tutarý Giriniz: ");
 		
 		Tutar = input.nextDouble();
-	
-	
+
 		KDVoraný = (Tutar<1000 && Tutar>0) ? 0.18 : 0.08 ;
 		
 		System.out.println("KDV Oraný:"+ KDVoraný );
+
 		
 		KDVtutarý = KDVoraný*Tutar;
 		System.out.println("KDV Tutarý:" + KDVtutarý);
