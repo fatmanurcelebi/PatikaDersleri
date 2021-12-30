@@ -3,26 +3,27 @@ import java.util.Scanner ;
 public class HW4 {
 
 	public static void main (String[]args) {
-//Eğer girilen tutar 0 ve 1000 TL arasında ise KDV oranı %18 , 
-//tutar 1000 TL'den büyük ise KDV oranını %8 olarak KDV tutarı hesaplayan programı yazınız.
+//YarÄ±Ã§apÄ± r, merkez aÃ§Ä±sÄ±nÄ±n Ã¶lÃ§Ã¼sÃ¼ x olan daire diliminin alanÄ± bulan programÄ± yazÄ±nÄ±z.
 
-		Scanner input= new Scanner(System.in); 
+// FormÃ¼l : (ğœ‹ * (r*r) * x) / 360
 		
-		double Tutar, KDVoranı, KDVtutarı, ToplamTutar ;
-		System.out.println("Lütfen Tutarı Giriniz: ");
-		
-		Tutar = input.nextDouble();
 
-		KDVoranı = (Tutar<1000 && Tutar>0) ? 0.18 : 0.08 ;
+	Scanner inp = new Scanner(System.in)	;
 		
-		System.out.println("KDV Oranı:"+ KDVoranı );
-
+	double r,x;
+	double pi=3.14;
+	 
+	System.out.println("YarÄ±Ã§apÄ± giriniz(cm):");
+	r=inp.nextDouble() ;
+	
+	System.out.println("Merkez aÃ§Ä±sÄ±nÄ± giriniz(derece):");
+	x=inp.nextDouble();
+	Double Alan= (pi*r*r*x)/360;
+	
+	System.out.println("Daire diliminin alanÄ± "+ Alan+" santimetrekaredir" );
 		
-		KDVtutarı = KDVoranı*Tutar;
-		System.out.println("KDV Tutarı:" + KDVtutarı);
 		
-		ToplamTutar= Tutar+KDVtutarı ;
-		System.out.println("Toplam Ödemeniz: " + ToplamTutar);
+		
 		
 		
 		
