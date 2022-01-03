@@ -26,7 +26,7 @@ public class HW6 {
 	ToplamFiyat=a*af+e*ef+d*df+m*mf+p*pf ;
 		
 		
-    System.out.println( "Toplam Fiyat= "+ToplamFiyat);
+    System.out.println( "Toplam Fiyat= "+ToplamFiyat+"TL");
 		
 		
 		
