@@ -52,9 +52,9 @@ public class HW13 {
 		TÝ=ST*turÝndirim;
 		SonTutar=(ST-TÝ)*tur;
 		
-		System.out.println("Ýndirimsiz Toplam"+ toplam);
+		System.out.println("Ýndirimsiz Toplam: "+ toplam);
 		System.out.println("Yaþ Ýndirimi: "+ YÝ);
-		System.out.println("Gidiþ-Dönüþ Ýndirimi"+TÝ);
+		System.out.println("Gidiþ-Dönüþ Ýndirimi: "+TÝ);
 		System.out.println("Ýndirimli Toplam Fiyat: "+ SonTutar);
 		
 		
