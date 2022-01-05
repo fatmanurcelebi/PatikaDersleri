@@ -12,14 +12,14 @@ public class HW15 {
 	if(yıl%4==0) {
 		if(yıl%100==0) {
 			if(yıl%400==0) {
-				System.out.println(yıl+" 1bir artık yıldır.");
+				System.out.println(yıl+" bir artık yıldır.");
 				
 			}else {
-				System.out.println(yıl+" 1artık yıl değildir.");
+				System.out.println(yıl+" artık yıl değildir.");
 			}
 			
 		}else {
-			System.out.println(yıl+" 2bir artık yıldır.");
+			System.out.println(yıl+" bir artık yıldır.");
 		}
 		
 		
@@ -28,7 +28,7 @@ public class HW15 {
 		
 		
 	}else {
-		System.out.println(yıl+" 2artık yıl değildir.");
+		System.out.println(yıl+" artık yıl değildir.");
 		
 	}
 		
