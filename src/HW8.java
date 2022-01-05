@@ -5,8 +5,8 @@ public class HW8 {
 	// Þifre deðiþtirme
 	
 	Scanner inp= new Scanner(System.in);	
-	String KullaniciAdi,Sifre ;
-	
+	String KullaniciAdi,Sifre,yenisifre ;
+	int cevap;
 	System.out.println("Lütfen kullanýcý adýnýzý giriniz: ");
 	KullaniciAdi= inp.nextLine();
 	System.out.println("Lütfen þifrenizi giriniz:");
@@ -19,22 +19,25 @@ public class HW8 {
 	else {
 	
 	System.out.println("Girdiðiniz bilgiler hatalý,þifrenizi deðiþtirmek ister misiniz?\nEvet:1\nOturumu Kapat:2");
-		
-		int cevap=inp.nextInt();
+	
+		cevap=inp.nextInt();
 	
 		  switch(cevap) {
+		  
 		  case 1:
 			System.out.println("Yeni þifrenizi giriniz: ");
-			String yenisifre= inp.nextLine() ;
-			System.out.println("Yeni þife= "+ yenisifre);
+		  
+			yenisifre= inp.nextLine();
 			
-			 if (("12345").equals(yenisifre)) {
+			
+			
+			 if ((yenisifre).equals("12345")) {
 				
 				System.out.println("Þifre deðiþtirilemedi");
 			}
 				else {
 					System.out.println("Þifreniz deðiþtirilmiþtir");
-					
+					System.out.println("Yeni þife= "+ yenisifre);
 				}	
 					
 		  
@@ -47,12 +50,13 @@ public class HW8 {
 			
 		
 			break;
+		  
 		default :
 			 System.out.println("Yanlýþ seçim yaptýnýz")	;
 			break;
-		}}
+		}
 		
-		
+	}
 		
 		
 		

@@ -1,8 +1,9 @@
 import java.util.Scanner;
-public class odev1 {
+
+public class dongu1 {
 
 	public static void main(String[] args) {
-		//  0'dan girilen sayýya kadar olan sayýlardan 3 ve 4'e tam bölünen sayýlarýn ortalamasýný hesaplayan program
+		////  0'dan girilen sayýya kadar olan sayýlardan 3 ve 4'e tam bölünen sayýlarýn ortalamasýný hesaplayan program
 		
 		Scanner inp=new Scanner(System.in);
 		System.out.println("Sayý giriniz: ");
@@ -12,7 +13,7 @@ public class odev1 {
 			if(i%3==0 && i%4==0) {
 				toplam+=i;
 				count++;
-				System.out.println("0 ile "+sayý+"arasýndaki sayýlardan 3 ve 4e tam bölünen sayý "+count+": "+i);
+				System.out.println("0 ile "+sayý+" arasýndaki sayýlardan 3 ve 4e tam bölünen sayý "+count+": "+i);
 			}
 			
 			
@@ -23,10 +24,12 @@ public class odev1 {
 		ortalama= toplam/count;
 		
 	
-		System.out.println("0 ile "+sayý+"'arasýndaki sayýlardan 3 ve 4e tam bölünen sayýlarýn ortalamasý; "+ortalama);
+		System.out.println("0 ile "+sayý+" arasýndaki sayýlardan 3 ve 4e tam bölünen sayýlarýn ortalamasý; "+ortalama);
 		
 		
 
 	}
 
-}
+	}
+
+
