@@ -28,7 +28,7 @@ public class HW_8 {
 				  case 1:
 					System.out.println("Yeni þifrenizi giriniz: ");
 				  
-					String 	yenisifre= inp.nextLine();
+					String 	yenisifre= inp.next();
 					
 					
 					
