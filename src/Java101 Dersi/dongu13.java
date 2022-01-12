@@ -18,17 +18,9 @@ public class dongu13 {
 				if(i%k==0 ) {
 					asal=false;
 					break;
-				}
-				
-				
-				
-				
-			}
+				}	}
 			
 		
-			
-			
-			
 			if(asal) {
 				
 				System.out.print(i+",");
