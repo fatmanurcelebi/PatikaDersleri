@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class dongu12 {
 
 	public static void main(String[] args) {
-		// ters yildiz
+		// ters yildiz yapma
 		
 		Scanner inp=new Scanner(System.in);
 
