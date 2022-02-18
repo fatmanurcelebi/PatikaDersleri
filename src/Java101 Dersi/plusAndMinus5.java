@@ -16,11 +16,8 @@ public class plusAndMinus5 {
 		return f(n+5,tempN,isTrue);
 	   }
 	   
-		
 		return 0;
 		}
-	
-	
 	
 	
 	public static void main(String[] args) {
